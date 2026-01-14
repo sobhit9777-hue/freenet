@@ -1,0 +1,28 @@
+{
+    "inbounds": [
+        {
+            "port": 10000, 
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "19a26364-811c-43f1-9f93-1b91953fd37d",
+                        "level": 0
+                    }
+                ],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/chat"
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
+}
